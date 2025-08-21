@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Sphere.ma
-//Last modified: Wed, Aug 20, 2025 10:10:27 PM
+//Last modified: Wed, Aug 20, 2025 10:12:41 PM
 //Codeset: 1252
 requires maya "2026";
 requires "mtoa" "5.5.3";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "C5E23EEB-4B46-4BDF-06BA-90976F823CEF";
+fileInfo "UUID" "AC42FBEA-44FE-09B2-DB26-E598C402CF29";
 createNode transform -s -n "persp";
 	rename -uid "1C37CB82-47A1-523F-E691-76A6CC02E18B";
 	setAttr ".v" no;
