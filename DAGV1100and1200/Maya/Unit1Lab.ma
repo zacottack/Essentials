@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: Unit1Lab.ma
-//Last modified: Sat, Jan 17, 2026 10:11:01 PM
+//Last modified: Sat, Jan 17, 2026 11:07:08 PM
 //Codeset: 1252
 requires maya "2025ff03";
 currentUnit -l centimeter -a degree -t film;
@@ -9,21 +9,21 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202512041342-b90de33065";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "74A74E49-4EDA-97AA-BC15-B7884939E095";
+fileInfo "UUID" "C8964CBC-4235-4A24-927A-CCBE97E4E149";
 createNode transform -s -n "persp";
 	rename -uid "4C93F315-4851-8F7B-5B3A-2CA983EC8386";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -5.0328790736370941 8.2406717335084778 25.563647427025153 ;
-	setAttr ".r" -type "double3" -10.538352732683238 3249.7999999991566 -4.034566150664862e-16 ;
+	setAttr ".t" -type "double3" -22.452929579058384 10.935699792472805 27.847772947860879 ;
+	setAttr ".r" -type "double3" -14.738352732672977 3568.5999999988571 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "CB9A3305-4EA1-091C-2CEC-ADAA22ED2C3A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 28.194619230132037;
+	setAttr ".coi" 25.732252086629138;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -9.7509250640869141 3.084054708480835 -1.7509255409240723 ;
+	setAttr ".tp" -type "double3" -0.31288228981725652 4.4629840850830078 0 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "B55EDD9F-4B5B-DC9E-C0F7-00ACA6333D77";
@@ -107,7 +107,7 @@ createNode mesh -n "ChairMeshShape" -p "transform3";
 	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "TableMesh";
 	rename -uid "DB6BB9E4-433C-2CFA-0DCF-71A8E7715F7C";
-	setAttr ".t" -type "double3" -8.2416582295224998 5.1626602481130668 7 ;
+	setAttr ".t" -type "double3" -7.8705572558388388 5.1626602481130668 7 ;
 	setAttr ".s" -type "double3" 6.1416304003824314 0.294834217331015 6.1416304003824314 ;
 createNode mesh -n "TableMeshShape" -p "TableMesh";
 	rename -uid "0F101143-480D-071C-0F84-6694136D7B78";
